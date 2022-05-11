@@ -19,7 +19,7 @@ export const NavBar = () => {
   return (
     <ul>
       {navigationLinks.map((item, k) => (
-        <li>
+        <li key={k}>
           <Link href={item.path}>
             <a style={{ color: verifyPath(item.path) }}>{item.label}</a>
           </Link>

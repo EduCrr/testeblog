@@ -26,15 +26,6 @@ export default function Home({ name, posts }) {
           Privacidade, disponível no site.
         </p>
       </div>
-      <div className={styles.btnPolitica}>
-        <input type="checkbox" />
-        <span>
-          Aceito os Termos de Uso e a{" "}
-          <a href="/">
-            <strong>Política de Privacidade</strong>
-          </a>
-        </span>
-      </div>
       <Script src="adasd" strategy="afterInteractive" />
     </div>
   );
